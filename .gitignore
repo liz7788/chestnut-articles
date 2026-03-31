@@ -1,0 +1,35 @@
+# === API Keys & Secrets ===
+.env
+.env.*
+*.key
+*.pem
+*.secret
+credentials.json
+service-account.json
+
+# === Claude Code Config ===
+.claude.json
+.claude/
+CLAUDE.md
+
+# === Prompts & Business Logic (NEVER push) ===
+prompts/
+提示詞/
+skills/
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# === OS Files ===
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# === Temp Files ===
+*.tmp
+*.bak
+*.log
